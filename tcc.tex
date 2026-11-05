@@ -1,0 +1,66 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\geometry{margin=2.5cm}
+\onehalfspacing
+
+\begin{document}
+
+\chapter{Referencial Teórico}
+
+Este capítulo procura fundamentar os conceitos teóricos relacionados à pesquisa, sendo organizado em quatro seções: 1. Artes Marciais Mistas (MMA); 2. Análise de Desempenho e Fatores Técnico-Táticos; 3. Inteligência Artificial; 4. Algoritmos de Aprendizado de Máquina. As seções apresentam os fundamentos do esporte, os indicadores utilizados na avaliação dos atletas e as tecnologias computacionais aplicadas à previsão de resultados esportivos.
+
+\section{Artes Marciais Mistas (MMA)}
+
+As artes marciais mistas (Mixed Martial Arts -- MMA) são uma modalidade esportiva de combate caracterizada pela combinação de técnicas provenientes de diferentes disciplinas, como boxe, muay thai, wrestling e jiu-jítsu brasileiro. Essa diversidade permite que os atletas utilizem estratégias variadas durante os confrontos, alternando entre combate em pé, clinch e luta no solo. Dessa forma, o resultado de uma luta está relacionado a diferentes capacidades técnicas, físicas e estratégicas dos competidores.
+
+Conforme apresentado por Bueno et al. (2022), o desempenho no MMA envolve diversos fatores, incluindo características físicas, aspectos técnico-táticos, preparação dos atletas e condições competitivas. Essa variedade demonstra que a análise de confrontos exige uma abordagem que considere diferentes indicadores, em vez de avaliar isoladamente uma única característica dos lutadores.
+
+Além disso, Holmes, McHale e Żychaluk (2023) demonstram que os resultados das lutas podem ser estudados por meio de modelos matemáticos capazes de estimar as probabilidades de vitória dos competidores. Nesse contexto, o MMA representa um ambiente relevante para a aplicação de técnicas estatísticas e computacionais, permitindo investigar padrões históricos e características associadas aos resultados dos confrontos.
+
+Portanto, compreender as características do MMA é fundamental para identificar quais informações podem contribuir para a previsão dos resultados, estabelecendo a base para a análise de desempenho dos atletas.
+
+\section{Análise de Desempenho e Fatores Técnico-Táticos}
+
+A análise de desempenho esportivo consiste na avaliação de indicadores que permitem compreender as características e os resultados apresentados pelos atletas durante as competições. No MMA, essa análise envolve aspectos como quantidade e precisão dos golpes, quedas, defesas, tentativas de finalização, tempo de controle e desempenho ao longo dos rounds.
+
+Segundo Miarka et al. (2017), diferentes ações técnico-táticas apresentam relações com os resultados dos combates, destacando a importância da efetividade dos golpes e das ações de grappling. Complementarmente, Miarka et al. (2016) identificaram diferenças nos indicadores técnicos e temporais entre atletas vencedores e derrotados. Miarka et al. (2018) também demonstraram a importância de considerar características como rounds, gênero e categorias de peso na análise do desempenho.
+
+Dal Bello et al. (2019) investigaram a relação entre técnicas de grappling e diferentes formas de encerramento das lutas, enquanto Fernandes et al. (2022) analisaram diferenças nas ações técnico-táticas de atletas especializados em striking, grappling e combate misto. Esses estudos demonstram que o estilo de luta e a utilização de diferentes técnicas podem contribuir para a compreensão do desempenho competitivo.
+
+Dessa maneira, indicadores como precisão e volume de golpes, desempenho no grappling, experiência competitiva, histórico de resultados e desempenho recente representam informações relevantes para a análise dos confrontos. A combinação desses fatores permite construir uma representação mais abrangente das características dos atletas, podendo servir como base para modelos de previsão de resultados.
+
+\section{Inteligência Artificial}
+
+A Inteligência Artificial (IA) corresponde a um conjunto de técnicas computacionais capazes de identificar padrões, processar informações e realizar previsões a partir de dados. Uma de suas principais aplicações é o aprendizado de máquina (\textit{machine learning}), que permite desenvolver modelos capazes de aprender relações presentes em conjuntos de dados históricos e utilizá-las para estimar resultados ainda desconhecidos.
+
+No contexto esportivo, Horvat e Job (2022) apresentam uma revisão sobre a utilização de aprendizado de máquina na previsão de resultados, destacando diferentes algoritmos e aplicações em modalidades esportivas. Bunker e Thabtah (2019) também discutem estruturas para a previsão de resultados esportivos, ressaltando a importância da seleção de variáveis, da preparação dos dados e da avaliação dos modelos.
+
+Especificamente no MMA, Cenanovic e Kevric (2022) investigaram a aplicação de inteligência artificial na previsão de resultados de confrontos do UFC, demonstrando o potencial dessas técnicas para identificar padrões relacionados aos vencedores. Holmes, McHale e Żychaluk (2023), por sua vez, utilizaram cadeias de Markov para estimar probabilidades de resultados, apresentando outra abordagem computacional para a previsão de lutas.
+
+Além disso, estudos como os de Wilkens (2021) e Hubáček, Šourek e Železný (2019) demonstram a aplicação de modelos de aprendizado de máquina em outros contextos esportivos, incluindo a previsão de resultados e a análise de probabilidades em mercados de apostas.
+
+Nesse sentido, a inteligência artificial apresenta potencial para transformar dados históricos dos lutadores em estimativas de resultados, permitindo identificar relações entre características individuais, desempenho competitivo e probabilidades de vitória.
+
+\section{Algoritmos de Aprendizado de Máquina}
+
+Entre os algoritmos utilizados em problemas de classificação, destacam-se aqueles baseados em árvores de decisão, especialmente o Random Forest e o XGBoost. Essas técnicas permitem analisar diferentes variáveis simultaneamente e identificar padrões relacionados aos resultados de um determinado problema.
+
+Conforme apresentado por Breiman (2001), o Random Forest utiliza um conjunto de árvores de decisão construídas a partir de amostras aleatórias dos dados e subconjuntos de variáveis. As previsões são combinadas para produzir um resultado final, buscando melhorar a capacidade de generalização do modelo. No MMA, esse algoritmo pode relacionar características como idade, alcance, histórico de vitórias, derrotas e indicadores de desempenho à probabilidade de vitória dos atletas.
+
+Outra abordagem é o \textit{Gradient Boosting}, apresentado por Friedman (2001), que constrói modelos de maneira sequencial, buscando corrigir os erros das etapas anteriores. A partir dessa abordagem, Chen e Guestrin (2016) desenvolveram o XGBoost, um algoritmo otimizado de \textit{boosting} que apresenta recursos de regularização e eficiência computacional, sendo amplamente aplicável a problemas estruturados em tabelas.
+
+A utilização desses algoritmos permite investigar diferentes relações entre as características dos lutadores e os resultados das lutas. Entretanto, o desempenho de cada modelo depende da qualidade dos dados, da seleção das variáveis e dos parâmetros utilizados durante o treinamento.
+
+Dessa forma, a comparação entre Random Forest e XGBoost permite avaliar qual algoritmo apresenta melhores resultados na previsão de vencedores de confrontos de MMA. Essa avaliação pode ser realizada por meio de métricas como acurácia, precisão, revocação (\textit{recall}) e F1-score, possibilitando analisar a capacidade de classificação e generalização dos modelos.
+
+\end{document}
